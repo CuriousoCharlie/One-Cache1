@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(182, 180, 180);
+}
+
+header {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position:fixed;
+    top: 0;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+}
+
+.intro, .riddle {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.intro {
+    margin-top: 120px;
+}
+
+p, .riddle {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+
+.riddle {
+    font-style: italic;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 420px;
+    background-color: rgb(242, 248, 253);
+}
+
+.feather {
+    display: block;
+    margin: 25px auto;
+    border-radius: 50%;
+    width: 150px;
+    height: 225px;
+    border: 1px solid white;
+}
+
+form {
+    width: 275px;
+    margin: 50px auto;
+}
